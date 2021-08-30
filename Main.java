@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Added Succesfully");
         }
         else if(choice == 2){
-        filename = "C:\\Users\\Abhishek\\Desktop\\project\\CsvToDataBase\\PermanentEmp.csv";
+        filename = "C:\\Users\\Abhishek\\Desktop\\project\\CsvToDataBase\\TemporaryEmp.csv";
         ob.addTemporaryEmp(filename);
         System.out.println("Added Succesfully");
         }
