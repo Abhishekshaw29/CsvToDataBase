@@ -57,7 +57,7 @@ public class EmployeeMangaement {
         try {
 
             Connection con =  db.getConnection();
-            String query = "insert into employee(Id,Employee_Name,City,Salary) values(?,?,?,?); ";
+            String query = "insert into employee(Id,name,City,Salary) values(?,?,?,?); ";
             PreparedStatement preparedStatement = con.prepareStatement(query);
             preparedStatement.setInt(1,id);
             preparedStatement.setString(2,name);

@@ -7,12 +7,12 @@ public class Main {
         String filename;
         EmployeeMangaement ob = new EmployeeMangaement();
         if(choice ==  1){
-        filename = "C:\\Users\\Abhishek\\Desktop\\project\\CsvToDataBase\\PermanentEmp.csv";
+        filename = "D:\\projects\\CsvToDataBase\\PermanentEmp.csv";
         ob.addPermanentEmp(filename);
         System.out.println("Added Succesfully");
         }
         else if(choice == 2){
-        filename = "C:\\Users\\Abhishek\\Desktop\\project\\CsvToDataBase\\TemporaryEmp.csv";
+        filename = "D:\\projects\\CsvToDataBase\\TemporaryEmp.csv";
         ob.addTemporaryEmp(filename);
         System.out.println("Added Succesfully");
         }
